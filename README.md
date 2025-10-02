@@ -1,1 +1,1 @@
-# it-mentorship-javascript
+# it-mentorship
