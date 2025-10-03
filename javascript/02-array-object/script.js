@@ -16,7 +16,7 @@ console.log(names);
 
 ///////////////////////////////////////////////////////////////////////
 
-let components = ["computer", "monitor", "keyboard", "mouse"];
+let components = ["monitor", "keyboard", "mouse"];
 components.length = 0;
 
 console.log(components);
