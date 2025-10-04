@@ -2,9 +2,9 @@
 
 // Create a variable "dayOfTheWeek", for example: let dayOfTheWeek = "monday".
 // Using a switch statement, check the following:
-// -> if the day is "saturday" or "sunday", print "Weekend!"
-// -> if the day is "friday", print "Weekend is coming!"
-// -> for any other day, print "Work work..."
+// if the day is "saturday" or "sunday", print "Weekend!"
+// if the day is "friday", print "Weekend is coming!"
+// for any other day, print "Work work..."
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
