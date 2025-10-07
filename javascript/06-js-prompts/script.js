@@ -51,3 +51,55 @@ for (let i = 0; i < shoppingList.length; i++) {
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////
+
+let weather = prompt("Enter the current weather");
+weather = weather.toLowerCase();
+
+switch(weather) {
+    case "sunny":
+        alert("Wear sunglasses 😎");
+        break;
+    case "rainy":
+        alert("Take an umbrella ☔");
+        break;
+    case "cloudy":
+        alert("Maybe it will rain, be prepared 🌂");
+        break;
+    case "snowy":
+        alert("Wear warm clothes ⛄");
+        break;
+        default:
+        alert("Unknown weather condition 🌪️");
+};
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+let colors = prompt("Enter a few colors").split(",");
+
+for (let i = 0; i < colors.length; i++) {
+  let color = colors[i].toLowerCase();
+
+  switch (color) {
+    case "red":
+      alert("Red is vibrant 🔴");
+      break;
+    case "blue":
+      alert("Blue is calm 🔵");
+      break;
+    case "white":
+      alert("White is pure ⚪");
+      break;
+    default:
+      alert("Color not recognized.");
+  };
+};
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+let userName = prompt("Enter your name:");
+
+if (userName.length < 5) {
+  alert("Hello, " + userName + "!");
+} else {
+  alert("Welcome, " + userName + "!");
+};
