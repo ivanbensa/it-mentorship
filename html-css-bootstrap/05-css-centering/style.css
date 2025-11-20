@@ -1,0 +1,29 @@
+nav {
+  background-color: #f2ddb6;
+}
+
+.logo {
+  width: 300px;
+  border-radius: 10%;
+}
+
+.title {
+  text-decoration: underline;
+}
+
+.subtitle {
+  color: #f9c011;
+}
+
+.icon {
+  width: 50px;
+  margin-right: 10px;
+}
+
+div {
+  text-align: center;
+}
+
+footer {
+  background-color: #f2ddb6;
+}
