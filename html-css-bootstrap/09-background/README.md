@@ -4,4 +4,4 @@
 
 // The title and button should be centered on top of the image.
 
-// Below the hero section, create a section with a call-to-action to buy a ticket.
+// Below the hero section, create a section with a call-to-action to buy a ticket. 
