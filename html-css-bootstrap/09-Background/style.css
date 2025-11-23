@@ -9,9 +9,8 @@ html {
 
 .header-image {
   width: 100%;
-  /*height: 800px;*/
   height: 100vh;
-  background: url("images/ferrari-957630_1280.jpg");
+  background: url("images/f1-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
@@ -19,7 +18,7 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  text-shadow: 2px 2px 2px rgba(206,89,55,0)
+  text-shadow: 2px 2px 2px rgba(14, 6, 4, 0.3);
   background-position: center;
   background-attachment: fixed;
 }
