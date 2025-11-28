@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: url("../images/car-shop.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 5rem;
+  color: #ffffff;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.45);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 40px 0;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.car-img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product {
+  background-color: #f8f8f9;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+}
+
+.product-footer {
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-size: 0.9rem;
+  margin-left: 10px;
+  gap: 20px;
+}
+
+.product-title {
+  font-size: 1.9rem;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  line-height: 1.2;
+}
+
+.product-description {
+  font-size: 1.3rem;
+  color: #6e6e6e;
+}
+
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  color: #7b1e3c;
+  margin-top: 10px;
+}
+
+.site-footer {
+  background-color: #e5e5e5;
+  text-align: center;
+  padding: 20px 0;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  margin-top: 50px;
+}
