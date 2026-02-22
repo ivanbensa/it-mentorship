@@ -28,23 +28,132 @@ for (let i = 0; i < grades.length; i++) {
 
 //////////////////////////////   04   //////////////////////////////
 
+let numbers = [1, 2, 3, 4, 5];
+
+for (let i = 0; i < numbers.length; i++) {
+	if (numbers[i] % 2 === 0) {
+		console.log(numbers[i]);
+	}
+}
+
 //////////////////////////////   05   //////////////////////////////
+
+let names = ["Ana","Marko","Jovan"];
+
+for (let i = 0; i < names.length; i++) {
+	if (names[i][0] === "A") {
+		console.log(names[i]);
+	}
+}
 
 //////////////////////////////   06   //////////////////////////////
 
+let cities = ["Belgrade","Novi Sad","Niš"];
+
+for (let i = 0; i < cities.length; i++) {
+	if (cities[i].length > 5) {
+		console.log(cities[i]);
+	}
+}
+
 //////////////////////////////   07   //////////////////////////////
+
+let day = 3;
+
+switch (day) {
+	case 1:
+		console.log("Monday");
+		break;
+
+	case 2:
+		console.log("Tuesday");
+		break;
+
+	case 3:
+		console.log("Wednesday");
+		break;
+}
 
 //////////////////////////////   08   //////////////////////////////
 
+let color = "green";
+
+switch (color) {
+	case "green":
+		console.log("Go");
+		break;
+
+	case "red":
+		console.log("Stop");
+		break;
+
+	case "yellow":
+		console.log("Caution");
+		break;
+}
+
 //////////////////////////////   09   //////////////////////////////
+
+let statuses = ["online","offline","online"];
+
+for (let i = 0; i < statuses.length; i++) {
+	switch (statuses[i]) {
+		case "online":
+			console.log("User active");
+			break;
+
+		case "offline":
+			console.log("User not active");
+			break;
+	}
+}
 
 //////////////////////////////   10   //////////////////////////////
 
+let newNumber = 0;
+
+if (newNumber % 2 === 0) {
+	console.log("Even");
+} else {
+	console.log("Odd");
+}
+
 //////////////////////////////   11   //////////////////////////////
+
+let results = [45, 70, 90];
+
+for (let i = 0; i < results.length; i++) {
+	if (results[i] >= 60) {
+		console.log("Passed");
+	} else {
+		console.log("Failed");
+	}
+}
 
 //////////////////////////////   12   //////////////////////////////
 
+let newNumbers = [3,5,8,2];
+
+let sum = 0;
+
+for (let i = 0; i < newNumbers.length; i++) {
+	sum = sum + newNumbers[i];
+}
+
+console.log(sum);
+
 //////////////////////////////   13   //////////////////////////////
+
+let maxNumbers = [1, 2, 3, 4, 5];
+let max = maxNumbers[0];
+
+for (let i = 1; i < maxNumbers.length; i++) {
+	if (maxNumbers[i] > max) {
+		max = maxNumbers[i];
+	}
+}
+
+console.log(max);
 
 //////////////////////////////   14   //////////////////////////////
 
