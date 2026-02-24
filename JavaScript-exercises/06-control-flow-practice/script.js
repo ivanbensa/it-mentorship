@@ -46,11 +46,50 @@ for (let i = 0; i < names.length; i++) {
 
 //////////////////////////////   05   //////////////////////////////
 
+let year = 2026;
+
+if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+	console.log("This is Leap Year");
+} else {
+	console.log("This is not leap year");
+}
+
+
 //////////////////////////////   06   //////////////////////////////
+
+let grades = [5,4,3,2,1,2];
+let count = 0;
+
+for (let i = 0; i < grades.length; i++) {
+	if (grades[i] === 2) {
+		count++;
+	}
+}
+
+console.log(count);
 
 //////////////////////////////   07   //////////////////////////////
 
+let day = "Saturday";
+
+switch (day) {
+	case "Monday":
+	case "Tuesday":
+	case "Wednesday":
+	case "Thursday":
+	case "Friday":
+		console.log("Workday");
+		break;
+	case "Saturday":
+	case "Sunday":
+		console.log("Weekend");
+		break;
+
+}
+
 //////////////////////////////   08   //////////////////////////////
+
+
 
 //////////////////////////////   09   //////////////////////////////
 
