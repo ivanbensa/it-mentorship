@@ -89,21 +89,111 @@ switch (day) {
 
 //////////////////////////////   08   //////////////////////////////
 
+let statuses = ["online", "offline", "offline", "online", "offline"];
 
+for (let i = 0; i < statuses.length; i++) {
+	switch (statuses[i]) {
+		case "online":
+			console.log("Active");
+			break;
+		case "offline":
+			console.log("Not active");
+			break;
+	}
+}
 
 //////////////////////////////   09   //////////////////////////////
 
+let numbersEx09 = [5,8,12,3];
+let smallestNumbers = numbersEx09[0];
+
+for (let i = 0; i < numbersEx09.length; i++) {
+	if (numbersEx09[i] < smallestNumbers) {
+		smallestNumbers = numbersEx09[i];
+	}
+}
+
+console.log(smallestNumbers);
+
 //////////////////////////////   10   //////////////////////////////
+
+let gradesEx10 = [5,3,4,2,5];
+let sum = 0;
+
+for (let i = 0; i < gradesEx10.length; i++) {
+		sum += gradesEx10[i];
+}
+
+console.log(sum);
 
 //////////////////////////////   11   //////////////////////////////
 
+let time = "morning";
+
+switch (time) {
+	case "morning":
+		console.log("Good morning");
+		break;
+	case "day":
+		console.log("Good afternoon");
+		break;
+	case "night":
+		console.log("Good night");
+		break;
+}
+
 //////////////////////////////   12   //////////////////////////////
+
+let languages = ["JS", "HTML", "CSS", "Python"];
+
+for (let i = 0; i < languages.length; i++) {
+	switch (languages[i]) {
+		case "JS":
+			console.log("JavaScript");
+			break;
+		case "HTML":
+			console.log("HyperText Markup Language");
+			break;
+		case "CSS":
+			console.log("Cascading Style Sheets");
+			break;
+		case "Python":
+			console.log("Python programming language (Monty PYTHON’s Flying Circus 😄)");
+			break;
+	}
+}
 
 //////////////////////////////   13   //////////////////////////////
 
+const numbersEx13 = [2, 4, 6, 8, 10];
+
+for (let i = 0; i < numbersEx13.length; i++) {
+	numbersEx13[i] /= 2;
+}
+
+console.log(numbersEx13);
+
 //////////////////////////////   14   //////////////////////////////
 
+const messages = ["Hello", "Hi", "Hey", "Bye"];
+
+for (let i = 0; i < messages.length; i++) {
+	if (messages[i].length > 2) {
+		console.log(messages[i]);
+	}
+}
+
 //////////////////////////////   15   //////////////////////////////
+
+const loggedIn = [true,false,true,false];
+
+for (let i = 0; i < loggedIn.length; i++) {
+	if (loggedIn[i] === true) {
+		console.log("Logged in");
+	} else {
+		console.log("Not logged in");
+	}
+}
 
 //////////////////////////////   16   //////////////////////////////
 
