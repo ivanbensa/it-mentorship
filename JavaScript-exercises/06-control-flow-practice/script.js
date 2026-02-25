@@ -197,23 +197,131 @@ for (let i = 0; i < loggedIn.length; i++) {
 
 //////////////////////////////   16   //////////////////////////////
 
+const number = 15;
+
+if (number % 3 === 0) {
+	console.log("Number is divisible by 3");
+} else {
+	console.log("Number is not divisible by 3");
+}
+
 //////////////////////////////   17   //////////////////////////////
+
+const gradesEx17 = [1, 2, 3, 4, 5];
+
+for (let i = 0; i < gradesEx17.length; i++) {
+	if (gradesEx17[i] === 5) {
+		console.log("Excellent");
+	} else if (gradesEx17[i] === 3 || gradesEx17[i] === 4) {
+		console.log("Good");
+	} else if (gradesEx17[i] === 1 || gradesEx17[i] === 2) {
+		console.log("Fail");
+	}
+}
 
 //////////////////////////////   18   //////////////////////////////
 
+const cities = ["Belgrade","Novi Sad","Niš","Subotica"];
+
+for (let i = 0; i < cities.length; i++) {
+	if (cities[i][0] === "N") {
+		console.log(cities[i]);
+	}
+}
+
 //////////////////////////////   19   //////////////////////////////
+
+const numbersEx19 = [1, 2, 3, 4, 5];
+let sumEx19 = 0;
+
+for (let i = 0; i < numbersEx19.length; i++) {
+	if (numbersEx19[i] % 2 === 0) {
+		sumEx19 += numbersEx19[i];
+	}
+}
+
+console.log(sumEx19);
 
 //////////////////////////////   20   //////////////////////////////
 
+const pointsEx20 = 72;
+
+if (pointsEx20 >= 72) {
+	console.log("Excellent");
+} else if (pointsEx20 >= 50) {
+	console.log("Good");
+} else {
+	console.log("Fail");
+}
+
 //////////////////////////////   21   //////////////////////////////
+
+const roles = ["admin", "user", "guest"];
+
+for (let i = 0; i < roles.length; i++) {
+	switch (roles[i]) {
+		case "admin":
+			console.log("Admin access");
+			break;
+		case "user":
+			console.log("User");
+			break;
+		case "guest":
+			console.log("Guest");
+			break;
+	}
+}
 
 //////////////////////////////   22   //////////////////////////////
 
+let numbersEx22 = [3, 7, 2, 8, 5];
+let largestNumbers = numbersEx22[0];
+
+for (let i = 0; i < numbersEx22.length; i++) {
+	if (numbersEx22[i] > largestNumbers) {
+		largestNumbers = numbersEx22[i];
+	}
+}
+
+console.log(largestNumbers);
+
 //////////////////////////////   23   //////////////////////////////
+
+const temperatures = [12, 25, 30, 18];
+
+for (let i = 0; i < temperatures.length; i++) {
+	if (temperatures[i] > 25) {
+		console.log("Hot");
+	} else if (temperatures[i] >= 15) {
+		console.log("Moderate");
+	} else {
+		console.log("Cold");
+	}
+}
 
 //////////////////////////////   24   //////////////////////////////
 
+const messagesEx24 = ["Hello", "World", "JS", "Bye"];
+let allMessages = "";
+
+for (let i = 0; i < messagesEx24.length; i++) {
+	allMessages += messagesEx24[i] + " ";
+}
+
+console.log(allMessages);
+
 //////////////////////////////   25   //////////////////////////////
+
+const type = "desktop";
+
+switch (type) {
+	case "desktop":
+		console.log("Desktop device");
+		break;
+	case "mobile":
+		console.log("Mobile device");
+		break;
+}
 
 //////////////////////////////   26   //////////////////////////////
 
