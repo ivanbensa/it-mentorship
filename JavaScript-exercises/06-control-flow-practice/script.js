@@ -325,9 +325,43 @@ switch (type) {
 
 //////////////////////////////   26   //////////////////////////////
 
+const numbersEx26 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+for (let i = 0; i < numbersEx26.length; i++) {
+	numbersEx26[i] = numbersEx26[i] * numbersEx26[i];
+}
+console.log(numbersEx26);
+
 //////////////////////////////   27   //////////////////////////////
 
+const gradesEx27 = [5, 3, 4, 2, 5, 3, 1];
+let countEx27 = 0;
+
+for (let i = 0; i < gradesEx27.length; i++) {
+	if (gradesEx27[i] >= 4) {
+		countEx27++;
+	}
+}
+
+console.log(countEx27);
+
 //////////////////////////////   28   //////////////////////////////
+
+const citiesEx28 = ["Belgrade", "Novi Sad", "Nis"];
+let found = false;
+
+for (let i = 0; i < citiesEx28.length; i++) {
+	if (citiesEx28[i] === "Nis") {
+		found = true;
+		break;
+	}
+}
+
+if (found) {
+	console.log("Nis found");
+} else {
+	console.log("Nis not found");
+}
 
 //////////////////////////////   29   //////////////////////////////
 
