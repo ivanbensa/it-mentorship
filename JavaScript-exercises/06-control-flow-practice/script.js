@@ -365,4 +365,26 @@ if (found) {
 
 //////////////////////////////   29   //////////////////////////////
 
+const numbersEx29 = [10, 20, 30];
+
+for (let i = 0; i < numbersEx29.length; i++) {
+	numbersEx29[i] = numbersEx29[i] + 5;
+}
+
+console.log(numbersEx29);
+
 //////////////////////////////   30   //////////////////////////////
+
+const gradesEx30 = [5,3,4,2,5];
+
+for (let i = 0; i < gradesEx30.length; i++) {
+	if (gradesEx30[i] === 5) {
+		console.log("Excellent");
+	} else if (gradesEx30[i] === 3 || gradesEx30[i] === 4) {
+		console.log("Good");
+	} else if (gradesEx30[i] === 2 || gradesEx30[i] === 1) {
+		console.log("Fail");
+	} else {
+		console.log("Invalid grade");
+	}
+}
