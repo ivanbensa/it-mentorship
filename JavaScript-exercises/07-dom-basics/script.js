@@ -31,13 +31,33 @@ paragraphEx5.innerHTML = "<strong>Bold Test</strong>";
 
 //////////////////////////////   06   //////////////////////////////
 
+const paragraphEx6 = document.getElementsByClassName("item");
+
+paragraphEx6[0].innerText = "First Changed";
+
 //////////////////////////////   07   //////////////////////////////
+
+const divEx7 = document.getElementById("main");
+
+divEx7.innerText += " Added";
 
 //////////////////////////////   08   //////////////////////////////
 
+const lineEx7 = document.getElementsByClassName("list");
+
+lineEx7[1].innerText = "Pear";
+
 //////////////////////////////   09   //////////////////////////////
 
+const paragraphEx9 = document.querySelector(".para");
+
+paragraphEx9.style.color = "red";
+
 //////////////////////////////   10   //////////////////////////////
+
+const divEx10 = document.getElementById("box");
+
+divEx10.innerHTML = "<p>New paragraph</p>";
 
 //////////////////////////////   11   //////////////////////////////
 
