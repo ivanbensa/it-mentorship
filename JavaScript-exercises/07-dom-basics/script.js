@@ -61,13 +61,38 @@ divEx10.innerHTML = "<p>New paragraph</p>";
 
 //////////////////////////////   11   //////////////////////////////
 
+const paragraphEx11 = document.querySelector("#text");
+
+paragraphEx11.innerText += " + extra";
+
 //////////////////////////////   12   //////////////////////////////
+
+const divEx12 = document.getElementsByClassName("card");
+
+for (let i = 0; i < divEx12.length; i++) {
+	divEx12[i].innerText = "Change"
+}
 
 //////////////////////////////   13   //////////////////////////////
 
+const spanEx12 = document.getElementById("number");
+
+let value = parseInt(spanEx12.innerText);
+value += 5;
+
+spanEx12.innerText = value;
+
 //////////////////////////////   14   //////////////////////////////
 
+const paragraphEx14 = document.querySelector(".description");
+
+paragraphEx14.innerText = "New description";
+
 //////////////////////////////   15   //////////////////////////////
+
+const divEx15 = document.getElementById("content");
+
+divEx15.innerHTML = "<ul><li>First</li><li>Second</li></ul>";
 
 //////////////////////////////   16   //////////////////////////////
 
