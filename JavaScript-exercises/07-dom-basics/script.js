@@ -96,6 +96,12 @@ divEx15.innerHTML = "<ul><li>First</li><li>Second</li></ul>";
 
 //////////////////////////////   16   //////////////////////////////
 
+const paragraphsEx16 = document.getElementsByClassName("para");
+
+for (let i = 0; i < paragraphsEx16.length; i++) {
+	paragraphsEx16[i].innerText = "Changed";
+}
+
 //////////////////////////////   17   //////////////////////////////
 
 //////////////////////////////   18   //////////////////////////////
