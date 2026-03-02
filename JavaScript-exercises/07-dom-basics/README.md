@@ -19,11 +19,17 @@ Exercises – DOM (querySelector, getElementById, getElementsByClassName, innerT
 15.	Create HTML <div id="content">Text</div> and use innerHTML to insert <ul><li>First</li><li>Second</li></ul>.
 16.	Create HTML <p class="para">Paragraph 1</p><p class="para">Paragraph 2</p> and use getElementsByClassName to change both elements to say "Changed".
 17.	Create HTML <h2 id="title2">Old title</h2> and use querySelector to change the text to "New title 2".
+
 18.	Create HTML <div class="box">Box1</div><div class="box">Box2</div> and use getElementsByClassName to change only the second one to "Box2 Changed".
+
 19.	Create HTML <p id="para2">Text</p> and use innerText to add " + extra text".
+
 20.	Create HTML <div id="mainDiv">Old div</div> and use innerHTML to insert <h3>New title</h3>.
+
 21.	Create HTML <span class="item">1</span><span class="item">2</span> and use getElementsByClassName to change the numbers to "10" and "20".
+
 22.	Create HTML <p id="message">Old</p> and use querySelector to change the text color to blue (style.color = "blue").
+
 23.	Create HTML <div class="card">Card 1</div> and use innerHTML to add <p>Card description</p>.
 24.	Create HTML <p class="test">Hello</p> and use querySelector to add " World" to the existing text.
 25.	Create HTML <div id="mainBox">Content</div> and use innerHTML to insert <ul><li>A</li><li>B</li></ul>.

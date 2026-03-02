@@ -104,15 +104,40 @@ for (let i = 0; i < paragraphsEx16.length; i++) {
 
 //////////////////////////////   17   //////////////////////////////
 
+const headerEx17 = document.querySelector("#title2");
+
+headerEx17.innerText = "New title 2";
+
 //////////////////////////////   18   //////////////////////////////
+
+const divEx18 = document.getElementsByClassName("boxEx18");
+
+divEx18[1].innerText = "Box2 Changed";
 
 //////////////////////////////   19   //////////////////////////////
 
+const paragraphEx19 = document.getElementById("para2");
+
+paragraphEx19.innerText += " + extra text";
+
 //////////////////////////////   20   //////////////////////////////
+
+const divEx20 = document.getElementById("mainDiv");
+
+divEx20.innerHTML += "<h3>New title</h3>";
 
 //////////////////////////////   21   //////////////////////////////
 
+const spanEx21 = document.getElementsByClassName("itemEx21");
+
+spanEx21[0].innerText = 10;
+spanEx21[1].innerText = 20;
+
 //////////////////////////////   22   //////////////////////////////
+
+const paragraphEx22 = document.querySelector("#messageEx22");
+
+paragraphEx22.style.color = "blue";
 
 //////////////////////////////   23   //////////////////////////////
 
