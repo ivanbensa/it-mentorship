@@ -4,12 +4,18 @@
 
 1.	Create an HTML element `<div id="main"></div>` and use createElement to add a `<p>` with the text "Hello" and red color style.
 
-2.	Create an array names = ["Ana","Marko","Jovan"]. Create <ul id="list"></ul> and use a for loop to add each array element as <li> inside the list.
-3.	Create a variable number = 15. Create <p id="par"></p> and use if to display "Number is greater than 10" or "Number is less than or equal to 10".
-4.	Create an array grades = [5,3,4,2,5] and use a for loop to sum all grades, then display the result inside <p id="sum"></p>.
-5.	Create <div id="box"></div> and use createElement to add <h2> with "Title" and <p> with "Description".
-6.	Create an array cities = ["Belgrade","Novi Sad","Niš"] and use for + if to add only cities starting with "N" into <ul id="cities"></ul>.
-7.	Create <div class="card"></div> and use createElement to add <h3> with "Card" and <p> with "Card description".
+2.	Create an array names = `["Ana","Marko","Jovan"]`. Create `<ul id="list"></ul>` and use a for loop to add each array element as `<li>` inside the list.
+
+3.	Create a variable number = 15. Create `<p id="par"></p>` and use if to display "Number is greater than 10" or "Number is less than or equal to 10".
+
+4.	Create an array grades = `[5,3,4,2,5]` and use a for loop to sum all grades, then display the result inside `<p id="sum"></p>`.
+
+5.	Create `<div id="box"></div>` and use createElement to add `<h2> with "Title" and <p>` with "Description".
+
+6.	Create an array cities = `["Belgrade","Novi Sad","Niš"]` and use for + if to add only cities starting with "N" into `<ul id="cities"></ul>`.
+
+7.	Create `<div class="card"></div>` and use createElement to add `<h3>` with "Card" and `<p>` with "Card description".
+
 8.	Create a variable points = 72. Create <p id="result"></p> and use if / else if / else to display "Excellent", "Good", or "Fail".
 9.	Create an array numbers = [2,4,6,8,10] and use a for loop to add <li> elements into <ul id="numberList"></ul> containing the square of each number.
 10.	Create <div id="container"></div> and use createElement to add 5 <p> elements with the text "Paragraph X", where X is 1–5.
