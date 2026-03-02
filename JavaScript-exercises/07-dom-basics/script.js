@@ -141,16 +141,54 @@ paragraphEx22.style.color = "blue";
 
 //////////////////////////////   23   //////////////////////////////
 
+const divEx23 = document.getElementsByClassName("cardEx23");
+
+divEx23[0].innerHTML += "<p> Card description</p>";
+
 //////////////////////////////   24   //////////////////////////////
+
+const paragraphEx24 = document.querySelector(".test");
+
+paragraphEx24.innerText += " World";
 
 //////////////////////////////   25   //////////////////////////////
 
+const divEx25 = document.getElementById("mainBox");
+
+divEx25.innerHTML += "<ul><li>A</li><li>B</li></ul>";
+
 //////////////////////////////   26   //////////////////////////////
+
+const paragraphEx26 = document.getElementsByClassName("para");
+
+for (let i = 0; i < paragraphEx26.length; i++) {
+	paragraphEx26[i].innerText = "Changed";
+}
 
 //////////////////////////////   27   //////////////////////////////
 
+const spanEx27 = document.querySelector("#number2");
+
+let valueEx27 = parseInt(spanEx27.innerText);
+valueEx27 += 10;
+
+console.log(valueEx27);
+
 //////////////////////////////   28   //////////////////////////////
+
+const divEx28 = document.querySelector(".cardEx28");
+
+divEx28.innerHTML += "<h2>Title</h2><p>Description</p>";
 
 //////////////////////////////   29   //////////////////////////////
 
+const paragraphEx29 = document.querySelector("#text2");
+
+paragraphEx29.style.fontSize = "22px";
+
 //////////////////////////////   30   //////////////////////////////
+
+const divEx30 = document.getElementsByClassName("itemEx30");
+
+divEx30[0].innerText = "First";
+divEx30[1].innerText = "Second";
