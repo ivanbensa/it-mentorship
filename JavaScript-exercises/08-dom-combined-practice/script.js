@@ -83,7 +83,29 @@ divEx7.append(headingEx7, paragraphEx7);
 
 //////////////////////////////   08   //////////////////////////////
 
+const divEx8 = document.querySelector("#resultEx8");
+const pointsEx8 = 75;
+
+if (pointsEx8 >= 75) {
+	divEx8.innerText = "Excellent";
+} else if (pointsEx8 >= 50) {
+	divEx8.innerText = "Good";
+} else {
+	divEx8.innerText = "Fail";
+}
+
 //////////////////////////////   09   //////////////////////////////
+
+//////////////////////////////   09   //////////////////////////////
+
+const ulEx09 = document.querySelector("#numberListEx9");
+const numberEx9 = [2, 4, 6, 8, 10];
+
+for (const numbersEx9 of numberEx9) {
+	const li = document.createElement("li");
+	li.innerText = numbersEx9 * numbersEx9;
+	ulEx09.append(li);
+}
 
 //////////////////////////////   10   //////////////////////////////
 

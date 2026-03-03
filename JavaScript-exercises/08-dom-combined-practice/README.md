@@ -16,8 +16,10 @@
 
 7.	Create `<div class="card"></div>` and use createElement to add `<h3>` with "Card" and `<p>` with "Card description".
 
-8.	Create a variable points = 72. Create <p id="result"></p> and use if / else if / else to display "Excellent", "Good", or "Fail".
-9.	Create an array numbers = [2,4,6,8,10] and use a for loop to add <li> elements into <ul id="numberList"></ul> containing the square of each number.
+8.	Create a variable points = 72. Create `<p id="result"></p>` and use if / else if / else to display "Excellent", "Good", or "Fail".
+
+9.	Create an array numbers = `[2,4,6,8,10]` and use a for loop to add `<li>` elements into `<ul id="numberList"></ul>` containing the square of each number.
+
 10.	Create <div id="container"></div> and use createElement to add 5 <p> elements with the text "Paragraph X", where X is 1–5.
 11.	Create an array roles = ["admin","user","guest"] and use switch to add into <ul id="roles"></ul>: "Admin access", "User", "Guest".
 12.	Create an array statuses = [true,false,true] and use for + if to add into <ul id="statuses"></ul> "Logged in" or "Not logged in".
