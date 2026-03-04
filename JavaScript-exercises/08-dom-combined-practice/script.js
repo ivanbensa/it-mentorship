@@ -96,8 +96,6 @@ if (pointsEx8 >= 75) {
 
 //////////////////////////////   09   //////////////////////////////
 
-//////////////////////////////   09   //////////////////////////////
-
 const ulEx09 = document.querySelector("#numberListEx9");
 const numberEx9 = [2, 4, 6, 8, 10];
 
@@ -109,7 +107,40 @@ for (const numbersEx9 of numberEx9) {
 
 //////////////////////////////   10   //////////////////////////////
 
+const divEx10 = document.querySelector("#containerEx10");
+
+for (let i = 1; i <= 5; i++) {
+	const paragraph = document.createElement("p");
+	paragraph.innerText = "Paragraph " + i;
+	divEx10.append(paragraph);
+}
+
 //////////////////////////////   11   //////////////////////////////
+
+const rolesEx11 = ["admin", "user", "guest"];
+
+const ulEx11 = document.querySelector("#roleEx11");
+
+for (const roleEx11 of rolesEx11) {
+
+	const li = document.createElement("li");
+
+	switch (roleEx11) {
+		case "admin":
+			li.innerText = "Admin access";
+			break;
+
+		case "user":
+			li.innerText = "User";
+			break;
+
+		case "guest":
+			li.innerText = "Guest";
+			break;
+	}
+
+	ulEx11.append(li);
+}
 
 //////////////////////////////   12   //////////////////////////////
 

@@ -20,8 +20,10 @@
 
 9.	Create an array numbers = `[2,4,6,8,10]` and use a for loop to add `<li>` elements into `<ul id="numberList"></ul>` containing the square of each number.
 
-10.	Create <div id="container"></div> and use createElement to add 5 <p> elements with the text "Paragraph X", where X is 1–5.
-11.	Create an array roles = ["admin","user","guest"] and use switch to add into <ul id="roles"></ul>: "Admin access", "User", "Guest".
+10.	Create `<div id="container"></div>` and use createElement to add 5 `<p>` elements with the text "Paragraph X", where X is 1–5.
+
+11.	Create an array roles = `["admin","user","guest"]` and use switch to add into `<ul id="roles"></ul>`: "Admin access", "User", "Guest".
+
 12.	Create an array statuses = [true,false,true] and use for + if to add into <ul id="statuses"></ul> "Logged in" or "Not logged in".
 13.	Create <p id="text">Old text</p> and use innerHTML to add <strong>New bold text</strong>.
 14.	Create an array numbers = [1,3,5,7,9] and use a for loop to add only odd numbers into <ul id="oddNumbers"></ul>.
