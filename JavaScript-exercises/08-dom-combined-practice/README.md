@@ -24,10 +24,14 @@
 
 11.	Create an array roles = `["admin","user","guest"]` and use switch to add into `<ul id="roles"></ul>`: "Admin access", "User", "Guest".
 
-12.	Create an array statuses = [true,false,true] and use for + if to add into <ul id="statuses"></ul> "Logged in" or "Not logged in".
-13.	Create <p id="text">Old text</p> and use innerHTML to add <strong>New bold text</strong>.
-14.	Create an array numbers = [1,3,5,7,9] and use a for loop to add only odd numbers into <ul id="oddNumbers"></ul>.
-15.	Create <div class="box"></div> and use createElement to add a <p> with "Hello" and change its text color to blue.
+12.	Create an array statuses = `[true,false,true]` and use for + if to add into `<ul id="statuses"></ul>` "Logged in" or "Not logged in".
+
+13.	Create `<p id="text">Old text</p>` and use innerHTML to add `<strong>New bold text</strong>`.
+
+14.	Create an array numbers = `[1,2,3,4,5,6,7,8,9]` and use a for loop to add only odd numbers into  `<ul id="oddNumbers"></ul>`.
+
+15.	Create `<div class="box"></div>` and use createElement to add a `<p>` with "Hello" and change its text color to blue.
+
 16.	Create an array names = ["Ana","Marko","Jovan"] and use for + if to add into <ul id="names"></ul> only names with more than 3 characters.
 17.	Create <div id="main"></div> and use createElement to add <h2> "Title" and <p> "Paragraph", then change the <p> text to "Changed paragraph" using getElementsByTagName.
 18.	Create an array numbers = [10,20,30,40,50] and use a for loop to add into <ul id="numberList"></ul> elements with the text "Number: X", where X is the number from the array.

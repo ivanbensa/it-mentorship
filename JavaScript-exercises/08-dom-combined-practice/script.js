@@ -144,11 +144,53 @@ for (const roleEx11 of rolesEx11) {
 
 //////////////////////////////   12   //////////////////////////////
 
+const statusesArrayEx12 = [true,false,true];
+
+const ulEx12 = document.querySelector("#statusesEx12");
+
+for (const statuseArrayEx12 of statusesArrayEx12) {
+	const liEx12 = document.createElement("li");
+
+	if (statuseArrayEx12 === true) {
+		liEx12.innerText = "Logged in";
+	} else {
+		liEx12.innerText = "Not logged in";
+	}
+
+	ulEx12.append(liEx12);
+}
+
 //////////////////////////////   13   //////////////////////////////
+
+const paragraphEx13 = document.querySelector("#textEx13");
+
+paragraphEx13.innerHTML = "<strong>New bold text</strong>";
 
 //////////////////////////////   14   //////////////////////////////
 
+const numbersEx14 = [1,2,3,4,5,6,7,8,9];
+
+const ulEx14 = document.querySelector("#oddNumbersEx14");
+
+for (const numberEx14 of numbersEx14) {
+	const liEx14 = document.createElement("li");
+
+	if (numberEx14 % 2 !== 0) {
+		liEx14.innerText = numberEx14;
+		ulEx14.append(liEx14);
+	}
+}
+
 //////////////////////////////   15   //////////////////////////////
+
+const paragraphEx15 = document.querySelector(".boxEx15");
+
+const divEx15 = document.createElement("p");
+
+divEx15.innerText = "Hello";
+divEx15.style.color = "blue";
+
+paragraphEx15.append(divEx15);
 
 //////////////////////////////   16   //////////////////////////////
 
