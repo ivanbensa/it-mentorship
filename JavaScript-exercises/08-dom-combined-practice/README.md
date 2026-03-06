@@ -32,11 +32,15 @@
 
 15.	Create `<div class="box"></div>` and use createElement to add a `<p>` with "Hello" and change its text color to blue.
 
-16.	Create an array names = ["Ana","Marko","Jovan"] and use for + if to add into <ul id="names"></ul> only names with more than 3 characters.
+16.	Create an array names = `["Ana","Marko","Jovan"]` and use for + if to add into `<ul id="names"></ul>` only names with more than 3 characters.
+
 17.	Create <div id="main"></div> and use createElement to add <h2> "Title" and <p> "Paragraph", then change the <p> text to "Changed paragraph" using getElementsByTagName.
-18.	Create an array numbers = [10,20,30,40,50] and use a for loop to add into <ul id="numberList"></ul> elements with the text "Number: X", where X is the number from the array.
-19.	Create <div class="container"></div> and use createElement to add <p> "Paragraph 1", then use a loop to add three more paragraphs: "Paragraph 2", "Paragraph 3", "Paragraph 4".
-20.	Create an array grades = [5,4,3,2,1] and use for + if to add into <ul id="grades"></ul>:
+
+18.	Create an array numbers = `[10,20,30,40,50]` and use a for loop to add into `<ul id="numberList"></ul>` elements with the text "Number: X", where X is the number from the array.
+
+19.	Create `<div class="container"></div>` and use createElement to add `<p>` "Paragraph 1", then use a loop to add three more paragraphs: "Paragraph 2", "Paragraph 3", "Paragraph 4".
+
+20.	Create an array grades = `[5,4,3,2,1]` and use for + if to add into `<ul id="grades"></ul>`:
 
 	•	"Excellent" for 5
 	•	"Good" for 3–4

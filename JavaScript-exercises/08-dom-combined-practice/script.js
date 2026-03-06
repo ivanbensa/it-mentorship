@@ -194,10 +194,78 @@ paragraphEx15.append(divEx15);
 
 //////////////////////////////   16   //////////////////////////////
 
+const namesArrayEx16 = ["Ana", "Marko", "Jovan"];
+
+const ulEx16 = document.querySelector("#namesEx16");
+
+for (const nameArrayEx16 of namesArrayEx16) {
+	const liEx16 = document.createElement("li");
+
+	if (nameArrayEx16.length > 3) {
+		liEx16.innerText = nameArrayEx16;
+		ulEx16.append(liEx16);
+	}
+}
+
 //////////////////////////////   17   //////////////////////////////
+
+const divEx17 = document.querySelector("#mainEx17");
+
+const headingEx17 = document.createElement("h2");
+const paragraphEx17 = document.createElement("p");
+
+headingEx17.innerText = "Title";
+paragraphEx17.innerText = "Paragraph";
+
+divEx17.append(headingEx17, paragraphEx17);
+
+divEx17.getElementsByTagName("p")[0].innerText = "Change paragraph";
 
 //////////////////////////////   18   //////////////////////////////
 
+const numbersEx18 = [10, 20, 30, 40, 50];
+
+const ulEx18 = document.querySelector("#numberListEx18");
+
+for (const numberEx18 of numbersEx18) {
+	const liEx18 = document.createElement("li");
+
+	liEx18.innerText = "Number: " + numberEx18;
+
+	ulEx18.append(liEx18);
+}
+
 //////////////////////////////   19   //////////////////////////////
 
+const divEx19 = document.querySelector(".containerEx19");
+
+const paragraphEx19 = document.createElement("p");
+paragraphEx19.innerText = "Paragraph 1";
+
+divEx19.append(paragraphEx19);
+
+for (let i = 2; i <= 4; i++) {
+	const p = document.createElement("p");
+	p.innerText = "Paragraph " + i;
+	divEx19.append(p);
+}
+
 //////////////////////////////   20   //////////////////////////////
+
+const gradesArrayEx20 = [5,4,3,2,1];
+
+const ulEx20 = document.querySelector("#gradesEx20");
+
+for (const gradeArrayEx20 of gradesArrayEx20) {
+	const liEx20 = document.createElement("li");
+
+	if (gradeArrayEx20 === 5) {
+		liEx20.innerText = "Excellent";
+	} else if (gradeArrayEx20 >= 3 ) {
+		liEx20.innerText = "good";
+	} else {
+		liEx20.innerText = "Fail";
+	}
+
+	ulEx20.append(liEx20);
+}
