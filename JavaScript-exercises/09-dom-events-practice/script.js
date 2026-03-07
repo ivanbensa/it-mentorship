@@ -11,7 +11,29 @@ div1.append(paragraph1);
 
 //////////////////////////////   02   //////////////////////////////
 
+const names2 = ["Petar", "Luka", "Maja"];
+
+const container2 = document.querySelector("#main2");
+
+for (const name of names2) {
+	if (name.includes("a")) {
+		const p = document.createElement("p");
+		p.textContent = name;
+		container2.append(p);
+	}
+}
+
 //////////////////////////////   03   //////////////////////////////
+
+const score3 = 88;
+
+const p3 = document.querySelector("#result3");
+
+if (score3 >= 50) {
+	p3.textContent = "Pass";
+} else {
+	p3.textContent = "Fail";
+}
 
 //////////////////////////////   04   //////////////////////////////
 

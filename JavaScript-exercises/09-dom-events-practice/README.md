@@ -3,8 +3,10 @@
 
 1.	Create `<div id="main"></div>` and use createElement to add a `<p>` element with the text “Welcome!” and font size 18px.
 
-2.	Create an array names = ["Petar","Luka","Maja"] and add a <p> element only for names that contain “a”.
-3.	Create a variable score = 88 and display “Pass” or “Fail” in a <p> element using a ternary operator.
+2.	Create an array names = `["Petar","Luka","Maja"]` and add a `<p>` element only for names that contain “a”.
+
+3.	Create a variable score = 88 and display “Pass” or “Fail” in a `<p>` element using a ternary operator.
+
 4.	Create an array numbers = [3,6,9,12,15] and add <li> elements with the text “Number X is divisible by 3” only for numbers divisible by 3.
 5.	Create <div class="container"></div> and use a loop to add <span> elements with the text “Element X” and change the text color on each iteration.
 6.	Create an array products = ["Milk","Bread","Cheese"] and add <li> elements with the text “In stock: X” for each product.
