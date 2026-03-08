@@ -17,9 +17,9 @@ const container2 = document.querySelector("#main2");
 
 for (const name of names2) {
 	if (name.includes("a")) {
-		const p = document.createElement("p");
-		p.textContent = name;
-		container2.append(p);
+		const p2 = document.createElement("p");
+		p2.textContent = name;
+		container2.append(p2);
 	}
 }
 
@@ -37,7 +37,50 @@ if (score3 >= 50) {
 
 //////////////////////////////   04   //////////////////////////////
 
+const numbers4 = [2, 3, 6, 7, 9, 12, 15, 20, 30];
+
+const list4 = document.querySelector("#list4");
+
+for (const number4 of numbers4) {
+	const li4 = document.createElement("li");
+
+	if (number4 % 3 === 0) {
+		const li4 = document.createElement("li");
+		li4.innerText = "Number " + number4 + " is divisible by 3";
+		list4.appendChild(li4);
+	}
+}
+
 //////////////////////////////   05   //////////////////////////////
+
+//////////////////////////////   05   //////////////////////////////
+
+const container5 = document.querySelector(".container5");
+
+for (let i = 1; i <= 5; i++) {
+
+	const span5 = document.createElement("span");
+
+	if (i === 5) {
+		span5.innerText = "Element " + i + ".";
+	} else {
+		span5.innerText = "Element " + i + ", ";
+	}
+
+	if (i === 1) {
+		span5.style.color = "red";
+	} else if (i === 2) {
+		span5.style.color = "blue";
+	} else if (i === 3) {
+		span5.style.color = "green";
+	} else if (i === 4) {
+		span5.style.color = "purple";
+	} else {
+		span5.style.color = "orange";
+	}
+
+	container5.append(span5);
+}
 
 //////////////////////////////   06   //////////////////////////////
 
