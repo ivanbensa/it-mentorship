@@ -84,7 +84,30 @@ for (let i = 1; i <= 5; i++) {
 
 //////////////////////////////   06   //////////////////////////////
 
+const products6 = ["Milk", "Bread", "Cheese"];
+
+const ul6 = document.querySelector("#products6");
+
+for (const product6 of products6) {
+
+	const li6 = document.createElement("li");
+
+	li6.innerText = "In stock: " + product6;
+
+	ul6.append(li6);
+}
+
 //////////////////////////////   07   //////////////////////////////
+
+const title7 = document.querySelector("#title7");
+
+const text7 = "Hello World";
+
+if (text7.length > 5) {
+	title7.innerText = "Long title";
+} else {
+	title7.innerText = "Short title";
+}
 
 //////////////////////////////   08   //////////////////////////////
 
