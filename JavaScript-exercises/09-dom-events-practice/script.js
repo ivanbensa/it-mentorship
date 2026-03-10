@@ -111,7 +111,37 @@ if (text7.length > 5) {
 
 //////////////////////////////   08   //////////////////////////////
 
+const grades8 = [1, 3, 5, 2, 4];
+
+const pAverage8 = document.querySelector("#average8");
+
+let sum = 0;
+
+for (const grade8 of grades8) {
+	sum += grade8;
+}
+
+const average8 = sum / grades8.length;
+
+pAverage8.innerText = average8;
+
 //////////////////////////////   09   //////////////////////////////
+
+const cities9 = ["Belgrade", "Novi Sad", "Nis", "Subotica"];
+
+const cityList9 = document.querySelector("#cityList9");
+
+for (const city9 of cities9) {
+
+	if (city9 === "Nis") {
+		continue;
+	}
+
+	const li = document.createElement("li");
+	li.innerText = "City: " + city9;
+
+	cityList9.append(li);
+}
 
 //////////////////////////////   10   //////////////////////////////
 

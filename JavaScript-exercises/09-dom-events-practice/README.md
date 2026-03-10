@@ -15,8 +15,10 @@
 
 7.	Create `<h1 id="title"></h1>` and use if to check the length of the string "Hello World"; if it is greater than 5 display “Long title”, otherwise “Short title”.
 
-8.	Create an array grades = [1,3,5,2,4] and use a loop to calculate the average grade and display it in <p id="average"></p>.
-9.	Create <ul id="cityList"></ul> and add <li> elements with the text “City: X” for each city in the array, but skip the city “Niš”.
+8.	Create an array grades = `[1,3,5,2,4]` and use a loop to calculate the average grade and display it in `<p id="average"></p>`.
+
+9.	Create `<ul id="cityList"></ul>` and add `<li>` elements with the text “City: X” for each city in the array, but skip the city “Niš”.
+
 10.	Create <div id="boxes"></div> and use a loop to add 4 <div> elements with the class "box" and different background colors.
 11.	Create an array roles = ["admin","user","guest"] and use switch to add to a `<ul>`:
 
