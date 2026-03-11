@@ -19,12 +19,12 @@
 
 9.	Create `<ul id="cityList"></ul>` and add `<li>` elements with the text “City: X” for each city in the array, but skip the city “Niš”.
 
-10.	Create <div id="boxes"></div> and use a loop to add 4 <div> elements with the class "box" and different background colors.
-11.	Create an array roles = ["admin","user","guest"] and use switch to add to a `<ul>`:
+10.	Create `<div id="boxes"></div>` and use a loop to add 4 `<div>` elements with the class "box" and different background colors.
 
-	•	"Full access"
-	•	"Limited access"
-		"Read only"
+11.	Create an array roles = `["admin","user","guest"]` and use switch to add to a `<ul>`:
+ `"Full access"
+"Limited access"
+"Read only"`
 
 	12.	Create <input id="textInput"> and use addEventListener("input") to display the character count in <p id="charCount"></p>.
 	13.	Create <button id="toggleBtn">Show/Hide</button> and <div id="info">Information</div>; clicking the button should toggle the visibility of the div.

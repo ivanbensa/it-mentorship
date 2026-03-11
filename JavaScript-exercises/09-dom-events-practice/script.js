@@ -145,7 +145,41 @@ for (const city9 of cities9) {
 
 //////////////////////////////   10   //////////////////////////////
 
+let colors10 = ["red", "blue", "green", "orange"];
+let container10 = document.getElementById("boxes10");
+
+for (let i = 0; i < colors10.length; i++) {
+	let div = document.createElement("div");
+	div.className = "box";
+	div.style.backgroundColor = colors10[i];
+	container10.appendChild(div);
+}
+
 //////////////////////////////   11   //////////////////////////////
+
+let roles11 = ["admin","user","guest"];
+let ul11 = document.getElementById("roleList11");
+
+for (let i = 0; i < roles11.length; i++) {
+
+	let li = document.createElement("li");
+
+	switch(roles11[i]) {
+		case "admin":
+			li.textContent = "Full access";
+			break;
+
+		case "user":
+			li.textContent = "Limited access";
+			break;
+
+		case "guest":
+			li.textContent = "Read only";
+			break;
+	}
+
+	ul11.appendChild(li);
+}
 
 //////////////////////////////   12   //////////////////////////////
 
