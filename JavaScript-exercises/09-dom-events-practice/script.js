@@ -157,14 +157,14 @@ for (let i = 0; i < colors10.length; i++) {
 
 //////////////////////////////   11   //////////////////////////////
 
-let roles11 = ["admin","user","guest"];
+let roles11 = ["admin", "user", "guest"];
 let ul11 = document.getElementById("roleList11");
 
 for (let i = 0; i < roles11.length; i++) {
 
 	let li = document.createElement("li");
 
-	switch(roles11[i]) {
+	switch (roles11[i]) {
 		case "admin":
 			li.textContent = "Full access";
 			break;
@@ -183,7 +183,27 @@ for (let i = 0; i < roles11.length; i++) {
 
 //////////////////////////////   12   //////////////////////////////
 
+const input12 = document.querySelector("#textInput12");
+const charCount12 = document.querySelector("#charCount12");
+
+input12.addEventListener("input", function() {
+	charCount12.innerText = "Characters: " + input12.value.length;
+});
+
 //////////////////////////////   13   //////////////////////////////
+
+const button13 = document.querySelector("#toggleBtn13");
+const info13 = document.querySelector("#info13");
+
+button13.addEventListener("click", function () {
+
+	if (info13.style.display === "none") {
+		info13.style.display = "block";
+	} else {
+		info13.style.display = "none";
+	}
+
+});
 
 //////////////////////////////   14   //////////////////////////////
 
