@@ -207,7 +207,40 @@ button13.addEventListener("click", function () {
 
 //////////////////////////////   14   //////////////////////////////
 
+const digits = [0,1,2,3,4,5,6,7,8,9];
+
+const evenNumbers = document.querySelector("#evenNumbers");
+
+for (const digit of digits) {
+
+	if (digit % 2 === 0) {
+
+		const li = document.createElement("li");
+		li.innerText = digit;
+
+		evenNumbers.append(li);
+	}
+}
+
 //////////////////////////////   15   //////////////////////////////
+
+const colorBox = document.querySelector("#colorBox");
+
+function randomColor() {
+	const r = Math.floor(Math.random() * 256);
+	const g = Math.floor(Math.random() * 256);
+	const b = Math.floor(Math.random() * 256);
+
+	return "rgb(" + r + "," + g + "," + b + ")";
+}
+
+colorBox.addEventListener("mouseover", function() {
+	colorBox.style.backgroundColor = randomColor();
+});
+
+colorBox.addEventListener("mouseout", function() {
+	colorBox.style.backgroundColor = "white";
+});
 
 //////////////////////////////   16   //////////////////////////////
 

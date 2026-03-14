@@ -31,8 +31,11 @@
 
 13.	Create `<button id="toggleBtn">Show/Hide</button>` and `<div id="info">Information</div>`; clicking the button should toggle the visibility of the div.
 
-14.	Create an array digits = [0,1,2,3,4,5,6,7,8,9] and use a loop to add <li> elements only for even numbers in <ul id="evenNumbers"></ul>.
-	15.	Create <div id="colorBox"></div> and use mouseover and mouseout to change the color to a random color.
+14.	Create an array digits = `[0,1,2,3,4,5,6,7,8,9]` and use a loop to add `<li>` elements only for even numbers in `<ul id="evenNumbers"></ul>`.
+	
+15.	Create `<div id="colorBox"></div>` and use mouseover and mouseout to change the color to a random color.
+
+17. 
 	16.	Create <div id="flexContainer"></div> and use a loop to add 5 <p> elements with "Row X" and make every second element bold.
 	17.	Create an array grades = [5,4,3,2,1] and use a loop to add <p> elements with “Excellent”, “Good”, or “Fail” inside <div id="result"></div> using if/else.
 	18.	Create <button id="addCard">Add card</button> and <div id="cards"></div>; clicking the button should add a new card with <h2> and <p>.
