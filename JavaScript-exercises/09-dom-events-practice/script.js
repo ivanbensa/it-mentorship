@@ -244,7 +244,40 @@ colorBox.addEventListener("mouseout", function() {
 
 //////////////////////////////   16   //////////////////////////////
 
+const flexContainer16 = document.querySelector("#flexContainer16");
+
+for (let i = 1; i <= 5; i++) {
+
+	const p16 = document.createElement("p");
+	p16.innerText = "Row " + i;
+
+	if (i % 2 === 0) {
+		p16.style.fontWeight = "bold";
+	}
+
+	flexContainer16.append(p16);
+}
+
 //////////////////////////////   17   //////////////////////////////
+
+const grades17 = [5,4,3,2,1];
+
+const result17 = document.querySelector("#result17");
+
+for (const grade17 of grades17) {
+
+	const p17 = document.createElement("p");
+
+	if (grade17 === 5) {
+		p17.innerText = "Excellent";
+	} else if (grade17 >= 3) {
+		p17.innerText = "Good";
+	} else {
+		p17.innerText = "Fail";
+	}
+
+	result17.append(p17);
+}
 
 //////////////////////////////   18   //////////////////////////////
 

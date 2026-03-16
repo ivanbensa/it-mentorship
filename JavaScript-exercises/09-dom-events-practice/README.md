@@ -35,19 +35,22 @@
 	
 15.	Create `<div id="colorBox"></div>` and use mouseover and mouseout to change the color to a random color.
 
-17. 
-	16.	Create <div id="flexContainer"></div> and use a loop to add 5 <p> elements with "Row X" and make every second element bold.
-	17.	Create an array grades = [5,4,3,2,1] and use a loop to add <p> elements with “Excellent”, “Good”, or “Fail” inside <div id="result"></div> using if/else.
-	18.	Create <button id="addCard">Add card</button> and <div id="cards"></div>; clicking the button should add a new card with <h2> and <p>.
-	19.	Create an array fruits = ["Apple","Banana","Pear","Pineapple"] and use a loop to add <li> elements with “Fruit: X” only if the fruit name has more than 5 characters.
-	20.	Create <div id="numbers"></div> and use a loop to add <p> elements with the square of each number from the array [2,4,6,8].
-	21.	Create <input id="focusInput"> and use the focus event to change the background color to light green.
-	22.	Create <input id="blurInput"> and use the blur event to change the background color back to white.
-	23.	Create <p id="doubleClick">Double click me</p> and change the text to “Double clicked” using dblclick.
-	24.	Create an array grades = [3,4,5,2] and use for + if to count how many grades are greater than 3 and display the number in <p id="count"></p>.
-	25.	Create <div id="hoverEffect"></div> and change its color on mouseenter and mouseleave.
-	26.	Create <button id="addItemBtn">Add item</button> and <ul id="items"></ul>; clicking the button should add a <li> with the text “New item”.
-	27.	Create an array names = ["Ana","Maja","Ivan","Luka"] and use a loop to add <p> elements with “Name: X” into <div id="names"></div>, but skip “Ivan”.
-	28.	Create <div id="boxesContainer"></div> and use a loop to add 3 <div> elements with the text “Box X” and different colors.
-	29.	Create an array numbers = [5,10,15,20,25] and use for + switch to add <p> elements with “Divisible by 5” or “Not divisible”.
-	30.	Create <div id="loopText"></div> and use a loop to add 5 <p> elements with "Paragraph X" and style every even paragraph in blue.
+
+16.	Create `<div id="flexContainer"></div>` and use a loop to add 5 `<p>` elements with "Row X" and make every second element bold.
+
+
+17.	Create an array grades = `[5,4,3,2,1]` and use a loop to add `<p>` elements with “Excellent”, “Good”, or “Fail” inside `<div id="result"></div>` using if/else.
+    
+17. 18.	Create <button id="addCard">Add card</button> and <div id="cards"></div>; clicking the button should add a new card with <h2> and <p>.
+    19.	Create an array fruits = ["Apple","Banana","Pear","Pineapple"] and use a loop to add <li> elements with “Fruit: X” only if the fruit name has more than 5 characters.
+    20.	Create <div id="numbers"></div> and use a loop to add <p> elements with the square of each number from the array [2,4,6,8].
+    21.	Create <input id="focusInput"> and use the focus event to change the background color to light green.
+    22.	Create <input id="blurInput"> and use the blur event to change the background color back to white.
+    23.	Create <p id="doubleClick">Double click me</p> and change the text to “Double clicked” using dblclick.
+    24.	Create an array grades = [3,4,5,2] and use for + if to count how many grades are greater than 3 and display the number in <p id="count"></p>.
+    25.	Create <div id="hoverEffect"></div> and change its color on mouseenter and mouseleave.
+    26.	Create <button id="addItemBtn">Add item</button> and <ul id="items"></ul>; clicking the button should add a <li> with the text “New item”.
+    27.	Create an array names = ["Ana","Maja","Ivan","Luka"] and use a loop to add <p> elements with “Name: X” into <div id="names"></div>, but skip “Ivan”.
+    28.	Create <div id="boxesContainer"></div> and use a loop to add 3 <div> elements with the text “Box X” and different colors.
+    29.	Create an array numbers = [5,10,15,20,25] and use for + switch to add <p> elements with “Divisible by 5” or “Not divisible”.
+    30.	Create <div id="loopText"></div> and use a loop to add 5 <p> elements with "Paragraph X" and style every even paragraph in blue.
