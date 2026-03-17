@@ -281,7 +281,39 @@ for (const grade17 of grades17) {
 
 //////////////////////////////   18   //////////////////////////////
 
+const button18 = document.querySelector("#addCard18");
+const cards18 = document.querySelector("#cards18");
+
+button18.addEventListener("click", function () {
+
+	const card18 = document.createElement("div");
+
+	const title18 = document.createElement("h2");
+	const paragraph18 = document.createElement("p");
+
+	title18.innerText = "Card Title";
+	paragraph18.innerText = "Card description";
+
+	card18.append(title18, paragraph18);
+	cards18.append(card18);
+});
+
 //////////////////////////////   19   //////////////////////////////
+
+const fruits19 = ["Apple","Banana","Pear","Pineapple"];
+
+const ul19 = document.querySelector("#fruitList19");
+
+for (const fruit19 of fruits19) {
+
+	if (fruit19.length > 5) {
+
+		const li19 = document.createElement("li");
+		li19.innerText = "Fruit: " + fruit19;
+
+		ul19.append(li19);
+	}
+}
 
 //////////////////////////////   20   //////////////////////////////
 

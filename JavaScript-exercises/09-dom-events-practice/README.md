@@ -41,8 +41,11 @@
 
 17.	Create an array grades = `[5,4,3,2,1]` and use a loop to add `<p>` elements with “Excellent”, “Good”, or “Fail” inside `<div id="result"></div>` using if/else.
     
-17. 18.	Create <button id="addCard">Add card</button> and <div id="cards"></div>; clicking the button should add a new card with <h2> and <p>.
-    19.	Create an array fruits = ["Apple","Banana","Pear","Pineapple"] and use a loop to add <li> elements with “Fruit: X” only if the fruit name has more than 5 characters.
+18.	Create `<button id="addCard">Add card</button>` and `<div id="cards"></div>`; clicking the button should add a new card with `<h2>` and `<p>`.
+
+19.	Create an array fruits = `["Apple","Banana","Pear","Pineapple"]` and use a loop to add `<li>` elements with “Fruit: X” only if the fruit name has more than 5 characters.
+20. 
+21. 
     20.	Create <div id="numbers"></div> and use a loop to add <p> elements with the square of each number from the array [2,4,6,8].
     21.	Create <input id="focusInput"> and use the focus event to change the background color to light green.
     22.	Create <input id="blurInput"> and use the blur event to change the background color back to white.
