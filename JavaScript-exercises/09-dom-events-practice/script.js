@@ -317,7 +317,25 @@ for (const fruit19 of fruits19) {
 
 //////////////////////////////   20   //////////////////////////////
 
+const numbersArray20 = [2,4,6,8];
+
+const numbers20 = document.querySelector("#numbers20");
+
+for (const number20 of numbersArray20) {
+
+	const p20 = document.createElement("p");
+	p20.innerText = number20 * number20;
+
+	numbers20.append(p20);
+}
+
 //////////////////////////////   21   //////////////////////////////
+
+const input21 = document.querySelector("#focusInput21");
+
+input21.addEventListener("focus", function () {
+	input21.style.backgroundColor = "lightgreen";
+});
 
 //////////////////////////////   22   //////////////////////////////
 
