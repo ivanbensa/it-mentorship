@@ -339,7 +339,19 @@ input21.addEventListener("focus", function () {
 
 //////////////////////////////   22   //////////////////////////////
 
+const input22 = document.querySelector("#blurInput22");
+
+input22.addEventListener("blur", function () {
+	input22.style.backgroundColor = "white";
+});
+
 //////////////////////////////   23   //////////////////////////////
+
+const paragraph23 = document.querySelector("#doubleClick23");
+
+paragraph23.addEventListener("dblclick", function () {
+	paragraph23.innerText = "Double clicked";
+});
 
 //////////////////////////////   24   //////////////////////////////
 
