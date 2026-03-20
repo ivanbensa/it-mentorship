@@ -355,7 +355,32 @@ paragraph23.addEventListener("dblclick", function () {
 
 //////////////////////////////   24   //////////////////////////////
 
+const grades24 = [3,4,5,2];
+
+const count24 = document.querySelector("#count24");
+
+let counter24 = 0;
+
+for (const grade24 of grades24) {
+
+	if (grade24 > 3) {
+		counter24++;
+	}
+}
+
+count24.innerText = counter24;
+
 //////////////////////////////   25   //////////////////////////////
+
+const hover25 = document.querySelector("#hoverEffect25");
+
+hover25.addEventListener("mouseenter", function () {
+	hover25.style.backgroundColor = "blue";
+});
+
+hover25.addEventListener("mouseleave", function () {
+	hover25.style.backgroundColor = "white";
+});
 
 //////////////////////////////   26   //////////////////////////////
 
