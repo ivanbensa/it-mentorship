@@ -384,6 +384,19 @@ hover25.addEventListener("mouseleave", function () {
 
 //////////////////////////////   26   //////////////////////////////
 
+const button26 = document.querySelector("#addItemBtn26");
+const ul26 = document.querySelector("#items26");
+
+button26.addEventListener("click", function () {
+
+	const li26 = document.createElement("li");
+
+	li26.innerText = "New item" ;
+
+	ul26.append(li26);
+
+})
+
 //////////////////////////////   27   //////////////////////////////
 
 //////////////////////////////   28   //////////////////////////////

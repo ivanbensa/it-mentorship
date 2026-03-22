@@ -57,10 +57,10 @@
 
 25.	Create `<div id="hoverEffect"></div>` and change its color on mouseenter and mouseleave.
 
-26.	Create <button id="addItemBtn">Add item</button> and <ul id="items"></ul>; clicking the button should add a <li> with the text “New item”.
-27. 
-28. 
-    27.	Create an array names = ["Ana","Maja","Ivan","Luka"] and use a loop to add <p> elements with “Name: X” into <div id="names"></div>, but skip “Ivan”.
-    28.	Create <div id="boxesContainer"></div> and use a loop to add 3 <div> elements with the text “Box X” and different colors.
+26.	Create `<button id="addItemBtn">Add item</button>` and `<ul id="items"></ul>`; clicking the button should add a <li> with the text “New item”.
+
+27.	Create an array names = `["Ana","Maja","Ivan","Luka"]` and use a loop to add `<p>` elements with “Name: X” into `<div id="names"></div>`, but skip “Ivan”.
+
+28.	Create <div id="boxesContainer"></div> and use a loop to add 3 <div> elements with the text “Box X” and different colors.
     29.	Create an array numbers = [5,10,15,20,25] and use for + switch to add <p> elements with “Divisible by 5” or “Not divisible”.
     30.	Create <div id="loopText"></div> and use a loop to add 5 <p> elements with "Paragraph X" and style every even paragraph in blue.
