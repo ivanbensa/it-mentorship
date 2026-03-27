@@ -399,6 +399,16 @@ button26.addEventListener("click", function () {
 
 //////////////////////////////   27   //////////////////////////////
 
+const names27 = ["Ana", "Maja", "Ivan", "Luka"];
+
+const p27 = document.querySelector("#names27");
+
+for (const name27 of names27) {
+	p27.innerText += name27 + "\n";
+
+
+}
+
 //////////////////////////////   28   //////////////////////////////
 
 //////////////////////////////   29   //////////////////////////////
