@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navigacija {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 15px;
+}
+
+.navigacija a {
+    text-decoration: none;
+    color: white;
+}
+
+.sekcijaSaArtiklima {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.artikal {
+    width: 25%;
+    padding: 10px;
+}
+
+.artikal p {
+    font-size: 0.7rem;
+}
+
+.futer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.header {
+    background-image: url("parts-img.jpeg");
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0px 1px #33f7d0;
+}
+
+.artikalCena {
+    font-weight: bold;
+    color: rgb(206 76 76);
+}
+
+.artikalImg {
+    width: 100%;
+}
+
+/*
+On larger screens each item takes 25% width, so 3 fit in one row.
+On smaller screens I increase it to 40%, so only 2 can fit in a row and rest moves to next line.
+*/
+
+@media only screen and (max-width: 640px) {
+    .artikal {
+        width: 40%;
+    }
+}
