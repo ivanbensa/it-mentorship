@@ -411,6 +411,19 @@ for (const name27 of names27) {
 
 //////////////////////////////   28   //////////////////////////////
 
+names28 = ["Ana", "Maja", "Ivan", "Luka"];
+const p28 = document.querySelector("#names28");
+
+for (const name28 of names28) {
+
+	if (name28 === "Ivan") {
+		continue;
+	}
+	p28.innerText += name28 + "\n";
+
+
+}
+
 //////////////////////////////   29   //////////////////////////////
 
 //////////////////////////////   30   //////////////////////////////
