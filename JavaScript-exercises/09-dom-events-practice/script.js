@@ -53,8 +53,6 @@ for (const number4 of numbers4) {
 
 //////////////////////////////   05   //////////////////////////////
 
-//////////////////////////////   05   //////////////////////////////
-
 const container5 = document.querySelector(".container5");
 
 for (let i = 1; i <= 5; i++) {
@@ -425,5 +423,24 @@ for (const name28 of names28) {
 }
 
 //////////////////////////////   29   //////////////////////////////
+
+numbers29 = [5, 128, 10, 15, 20, 25, 66];
+const p29 = document.querySelector("#numbers29");
+
+for (const number29 of numbers29) {
+	let p = document.createElement("p");
+
+	switch (true) {
+		case number29 % 5 === 0:
+			p.innerText = number29 + " is divisible by 5";
+			break;
+
+		default:
+			p.innerText = number29 + " is not divisible by 5";
+	}
+
+	p29.appendChild(p);
+}
+
 
 //////////////////////////////   30   //////////////////////////////
