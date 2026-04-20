@@ -1,0 +1,2 @@
+
+//  Create a script that demonstrates type conversion (Number, String, parseInt, parseFloat), performs basic operations with numbers and strings, and uses the ternary operator to evaluate conditions and display results.
