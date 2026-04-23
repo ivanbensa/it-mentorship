@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Form</title>
+</head>
+<body>
+<form class="order-form">
+
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input id="name" type="text" placeholder="Enter your name" required>
+    </div>
+
+    <div class="form-group">
+        <label for="address">Address:</label>
+        <input id="address" type="text" placeholder="Enter your address" required>
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="Enter your email" required>
+    </div>
+
+    <div class="form-group">
+
+        <label for="city">Select city:</label>
+
+        <select id="city" required>
+            <option disabled selected>Select city</option>
+            <option>Belgrade</option>
+            <option>Novi Sad</option>
+            <option>Subotica</option>
+        </select>
+    </div>
+
+    <div class="form-group payment-group">
+
+        <p>Select payment method</p>
+
+        <div class="radio-group">
+            <input id="card" type="radio" checked name="payment">
+            <label for="card">Credit card</label>
+        </div>
+
+        <div class="radio-group">
+            <input id="cash" type="radio" name="payment">
+            <label for="cash">Cash on delivery</label>
+        </div>
+    </div>
+
+    <div class="form-group checkbox-group">
+        <input id="mail-selection" type="checkbox">
+        <label for="mail-selection">I want to receive promotional emails</label>
+    </div>
+
+    <div class="form-group">
+        <input class="submit-btn" type="submit">
+    </div>
+
+</form>
+</body>
+</html>
