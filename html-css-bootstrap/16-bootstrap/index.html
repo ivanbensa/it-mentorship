@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="vezba.css">
+    <title>Document</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container d-flex">
+        <a class="navbar-brand col-4" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse col-8" id="navbarNav">
+            <ul class="navbar-nav w-100 justify-content-between">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="urv-ferrari-490617.jpg" class="d-block w-100" alt="F-1">
+        </div>
+        <div class="carousel-item">
+            <img src="samuil0501-car-8331401%20(1).jpg" class="d-block w-100" alt="F-1">
+        </div>
+        <div class="carousel-item">
+            <img src="samuil0501-car-8331399.jpg" class="d-block w-100" alt="F-1">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!--//////////////////////////////////////exercise////////////////////////////////// -->
+<div class="container mt-5 d-flex flex-column min-vh-100">
+
+    <div class="bg-dark text-white d-flex flex-column justify-content-center align-items-center flex-fill text-center">
+        <h1 class="fw-bold">Highly experienced web developer</h1>
+        <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#aboutModal">About me!</button>
+    </div>
+
+    <div class="row g-0 flex-fill">
+        <div class="col-12 col-md-6 bg-info d-flex justify-content-center align-items-center">
+            <h2 class="m-0">HTML/CSS</h2>
+        </div>
+        <div class="col-12 col-md-6 bg-primary d-flex justify-content-center align-items-center">
+            <h2 class="m-0">JavaScript</h2>
+        </div>
+    </div>
+
+    <div class="bg-dark text-white d-flex justify-content-center align-items-center flex-fill">
+        <h2 class="m-0">PHP</h2>
+    </div>
+
+</div>
+<!--//////////////////////////////////////end of exercise////////////////////////////////// -->
+
+<div class="container d-flex justify-content-center align-items-center  flex-wrap mt-5 divHolder">
+    <div class="col-md-3 col-12 col-lg-5 bg-success">A</div>
+    <div class="col-md-3 col-12 col-lg-5 bg-warning">B</div>
+    <div class="col-md-3 col-12 col-lg-5 bg-primary">C</div>
+    <div class="col-md-3 col-12 col-lg-5 bg-secondary">D</div>
+</div>
+
+<footer class="bg-dark text-white p-4 d-flex justify-content-center align-items-center">
+    <p class="m-0">Copyright &copy;MojSajt 2025-2026</p>
+</footer>
+
+<div class="modal" id="aboutModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Hello Bootstrap!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi consequuntur culpa et, facere facilis hic id illum incidunt ipsam iste non odit ratione recusandae, saepe temporibus unde vel veritatis!</p>
+            </div>
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK :)</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
