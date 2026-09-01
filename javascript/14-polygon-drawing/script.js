@@ -45,7 +45,7 @@ function drawPoint(p) {
 function redrawScene() {
     clearCanvas();
 
-    // nacrtaj "preview" linije (otvoren path) + tacke
+    // draw preview lines (open path) + points
     if (clickPoints.length === 0) {
         renderInfo();
         return;
@@ -53,11 +53,10 @@ function redrawScene() {
 
     ctx.save();
 
-    // tacke (crne)
     ctx.fillStyle = "#000";
     for (const p of clickPoints) drawPoint(p);
 
-    // otvorena linija (siva)
+    // open line (gray)
     if (clickPoints.length >= 2) {
         ctx.beginPath();
         ctx.moveTo(clickPoints[0].x, clickPoints[0].y);
@@ -110,7 +109,7 @@ function renderInfo(extraMessage = "") {
     </div>
     ${extraMessage ? `<div><b>${extraMessage}</b></div>` : ""}
     <div style="opacity:.8;margin-top:6px;">
-      Klikći tačke. Kad imaš bar 3 tačke, klikni <b>Finish polygon</b>.
+      Click the points. When you have at least 3 points, click <b>Finish polygon</b>.
     </div>
   `;
 }
@@ -127,7 +126,7 @@ canvasElement.addEventListener("click", function (event) {
 
 finishBtn.addEventListener("click", function () {
     if (clickPoints.length < 3) {
-        renderInfo("Treba minimum 3 tačke za poligon.");
+        renderInfo("A minimum of 3 points is required for a polygon.");
         return;
     }
 
@@ -137,9 +136,9 @@ finishBtn.addEventListener("click", function () {
     const perimeter = calculatePerimeter(clickPoints);
     polygonCounter++;
 
-    renderInfo(`Poligon #${polygonCounter} (${clickPoints.length} stranica) | Obim: ${perimeter.toFixed(2)} px | Boja: ${color}`);
+    renderInfo(`Polygon #${polygonCounter} (${clickPoints.length} sides) | Perimeter: ${perimeter.toFixed(2)} px | Color: ${color}`);
 
-    // resetuj za sledeći poligon
+    // reset for the next polygon
     clickPoints = [];
 });
 
