@@ -23,6 +23,9 @@ movieSearchForm.addEventListener("submit", async function (event) {
     moviesHolder.innerHTML = "";
 
 /*
+
+////////////////    My first solution ... :D
+
     for (let movie of data.Search) {
         let movieCard = document.createElement("div");
         movieCard.className = "card col-12 col-md-4 col-lg-3 p-0";
