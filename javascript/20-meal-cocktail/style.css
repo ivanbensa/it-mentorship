@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#mealsHolder {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.mealImage {
+    width: 300px;
+}
+
+#popup {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+    justify-content: center;
+
+}
+
+#innerPopup {
+    margin-top: 20px;
+    width: 50%;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+}
