@@ -1,4 +1,7 @@
-
+* {
+    margin: 0;
+    padding: 0;
+}
 
 #mealsHolder {
     display: flex;
@@ -11,21 +14,27 @@
 }
 
 #popup {
-    width: 100%;
-    height: 100vh;
     position: fixed;
-    left: 0;
-    top: 0;
+    inset: 0;
     background-color: rgba(0,0,0,0.5);
     display: none;
     justify-content: center;
-
 }
 
 #innerPopup {
     margin-top: 20px;
     width: 50%;
-    height: auto;
+    max-height: 90vh;
+    overflow-y: auto;
     background-color: white;
     padding: 10px;
+}
+
+#cocktailImage {
+    width: 200px;
+    height: auto;
+}
+
+hr {
+    margin: 20px 0;
 }
