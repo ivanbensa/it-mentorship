@@ -444,3 +444,17 @@ for (const number29 of numbers29) {
 
 
 //////////////////////////////   30   //////////////////////////////
+
+const loopText = document.getElementById("loopText");
+
+for (let i = 1; i <= 5; i++) {
+	const paragraph = document.createElement("p");
+
+	paragraph.innerText = `Paragraph ${i}`;
+
+	if (i % 2 === 0) {
+		paragraph.style.color = "blue";
+	}
+
+	loopText.append(paragraph);
+}
