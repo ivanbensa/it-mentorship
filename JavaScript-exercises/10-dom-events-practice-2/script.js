@@ -48,7 +48,7 @@ for (let number of numbers) {
     }
 }
 
-//////////////////////////////   04   //////////////////////////////
+//////////////////////////////   05   //////////////////////////////
 
 const main5 = document.getElementById("main5");
 
@@ -61,4 +61,18 @@ for (let i = 0; i < 5; i++) {
     span.style.color = colors[i];
 
     main5.append(span);
+}
+
+//////////////////////////////   06   //////////////////////////////
+
+const main6 = document.getElementById("main6");
+
+const products = ["Milk", "Bread", "Cheese"];
+
+for (let product of products) {
+    const listItem = document.createElement("li");
+
+    listItem.innerText = `In stock: ${product}`;
+
+    main6.append(listItem);
 }
