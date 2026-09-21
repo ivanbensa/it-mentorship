@@ -47,3 +47,18 @@ for (let number of numbers) {
         main4.append(listItem);
     }
 }
+
+//////////////////////////////   04   //////////////////////////////
+
+const main5 = document.getElementById("main5");
+
+const colors = ["red", "blue", "green", "orange", "purple"];
+
+for (let i = 0; i < 5; i++) {
+    const span = document.createElement("span");
+
+    span.innerText = `Element ${i + 1}`;
+    span.style.color = colors[i];
+
+    main5.append(span);
+}
