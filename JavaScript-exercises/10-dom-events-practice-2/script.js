@@ -76,3 +76,15 @@ for (let product of products) {
 
     main6.append(listItem);
 }
+
+//////////////////////////////   07   //////////////////////////////
+
+const title = document.getElementById("title");
+
+const text = "Hello World";
+
+if (text.length > 5) {
+    title.innerText = "Long title";
+} else {
+    title.innerText = "Short title";
+}
