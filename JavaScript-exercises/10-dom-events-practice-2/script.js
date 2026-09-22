@@ -88,3 +88,17 @@ if (text.length > 5) {
 } else {
     title.innerText = "Short title";
 }
+
+//////////////////////////////   08   //////////////////////////////
+
+const grades = [1, 3, 5, 2, 4];
+
+let sum = 0;
+
+for (let grade of grades) {
+    sum += grade;
+}
+
+const average = sum / grades.length;
+
+document.getElementById("average").innerText = average;
