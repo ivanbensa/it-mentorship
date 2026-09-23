@@ -102,3 +102,20 @@ for (let grade of grades) {
 const average = sum / grades.length;
 
 document.getElementById("average").innerText = average;
+
+//////////////////////////////   09   //////////////////////////////
+
+const cities = ["Berlin", "Beograd", "Niš", "Novi Sad"];
+
+const cityList = document.getElementById("cityList");
+
+for (let city of cities) {
+    if (city === "Niš") {
+        continue;
+    }
+
+    const listItem = document.createElement("li");
+    listItem.innerText = `City: ${city}`;
+
+    cityList.append(listItem);
+}
