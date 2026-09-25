@@ -124,18 +124,18 @@ for (let city of cities) {
 
 const boxes = document.getElementById("boxes");
 
-const colors = ["red", "blue", "green", "orange"];
+const colorsEx10 = ["red", "blue", "green", "orange"];
 
 for (let i = 0; i < 4; i++) {
     const box = document.createElement("div");
 
     box.classList.add("box");
-    box.style.backgroundColor = colors[i];
+    box.style.backgroundColor = colorsEx10[i];
 
     boxes.append(box);
 }
 
-//////////////////////////////   10   //////////////////////////////
+//////////////////////////////   11   //////////////////////////////
 
 const roles = ["admin", "user", "guest"];
 
