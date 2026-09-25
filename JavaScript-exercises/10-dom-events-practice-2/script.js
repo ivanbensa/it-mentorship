@@ -134,3 +134,29 @@ for (let i = 0; i < 4; i++) {
 
     boxes.append(box);
 }
+
+//////////////////////////////   10   //////////////////////////////
+
+const roles = ["admin", "user", "guest"];
+
+const main11 = document.getElementById("main11");
+
+for (let role of roles) {
+    const listItem = document.createElement("li");
+
+    switch (role) {
+        case "admin":
+            listItem.innerText = "Full access";
+            break;
+
+        case "user":
+            listItem.innerText = "Limited access";
+            break;
+
+        case "guest":
+            listItem.innerText = "Read only";
+            break;
+    }
+
+    main11.append(listItem);
+}
